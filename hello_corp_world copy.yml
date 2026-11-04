@@ -1,0 +1,6 @@
+- name: Hello CORPORATE World ( corporate )
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello Another World!"
